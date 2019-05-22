@@ -1,0 +1,26 @@
+{
+  "name": "place-automatedcall-service-nodejs",
+  "version": "1.0.0",
+  "description": "Using Twilio API to place automated call",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "keywords": [
+    "twilio",
+    "heroku"
+  ],
+  "author": "Sumit Kumar Tiwari",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.0",
+    "twilio": "3.31.0"
+  },
+  "engines": {
+    "node": "10.14.2"
+  },
+  "devDependencies": {
+    "dotenv": "8.0.0"
+  }
+}
