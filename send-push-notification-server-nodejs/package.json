@@ -1,0 +1,20 @@
+{
+  "name": "push-notification-server",
+  "version": "1.0.0",
+  "description": "Pushing the notification message to the server which indeed send the notification to connected mobile",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sumit",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.0",
+    "firebase-admin": "7.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "8.0.0"
+  }
+}
